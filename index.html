@@ -5,45 +5,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EduTech Solutions</title>
-  <link rel="icon" type="image/x-icon" href="EduTech/images/favicon.png">
-  <link rel="stylesheet" href="all.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" href="styles/all.css" />
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 
 <body>
   <!-- Header Section -->
   <header class="header" id="navbar">
     <!-- Navbar -->
-     <div class="container">
-    <nav class="nav">
-      <div class="logo"><a href="index.html">EduTech Solutions</a></div>
-      <div class="nav-content" id="menu">
-        <i class="fas fa-bars bar-icon" style="font-size: 1.5rem;"></i>
-        <!-- Dropdown list -->
-        <div class="nav-links">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Courses
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#" target="_blank">Data Science</a>
-              <a href="#" target="_blank">Web Development</a>
-              <a href="#" target="_blank">Finance</a>
+    <div class="container">
+      <nav class="nav">
+        <div class="logo"><a href="index.html">EduTech Solutions</a></div>
+        <div class="nav-content" id="menu">
+          <i class="fas fa-bars bar-icon" style="font-size: 1.5rem;"></i>
+          <!-- Dropdown list -->
+          <div class="nav-links">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Courses
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#" target="_blank">Data Science</a>
+                <a href="#" target="_blank">Computer Science</a>
+                <a href="#" target="_blank">Finance</a>
+              </div>
             </div>
+            <div class="search-box">
+              <form>
+                <input type="text" placeholder="Search online courses" name="search" />
+              </form>
+            </div>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="login.html" class="sign-button log">Sign in</a>
+            <a href="signup.html" class="sign-button">Register</a>
           </div>
-          <div class="search-box">
-            <form>
-              <input type="text" placeholder="Search online courses" name="search" />
-            </form>
-          </div>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="login.html" class="sign-button log">Sign in</a>
-          <a href="signup.html" class="sign-button">Register</a>
         </div>
-      </div>
-      <!-- <ul>
+        <!-- <ul>
           <li class="search-box">
             <form>
               <input type="text" placeholder="Search.." name="search" />
@@ -54,248 +54,250 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul> -->
-    </nav>
-  </div>
+      </nav>
+    </div>
   </header>
   <!-- Hero Section -->
   <section class="hero-section" id="intro">
     <div class="container">
-    <div class="hero-content">
-      <h1>Learn Today, Lead Tomorrow</h1>
-      <p>
-        Gain in-demand tech skills with personalized learning paths tailored
-        to your goals.
-      </p>
-      <div class="hero-buttons">
-        <button>Join for free</button>
-        <button>Explore courses</button>
-      </div>
-      <!-- <form class="hero-form">
+      <div class="hero-content">
+        <h1>Learn Today, Lead Tomorrow</h1>
+        <p>
+          Gain in-demand tech skills with personalized learning paths tailored
+          to your goals.
+        </p>
+        <div class="hero-buttons">
+          <button>Join for free</button>
+          <button>Explore courses</button>
+        </div>
+        <!-- <form class="hero-form">
           <input type="email" placeholder="Enter your email to get started" aria-label="Enter your email">
           <button type="submit" class="btn-primary">Get Started</button>
         </form> -->
+      </div>
     </div>
-  </div>
   </section>
   <!-- Partner Section -->
   <section class="partners" id="partners">
     <div class="container">
-    <div class="partner-container">
-      <h3 class="partner-banner">Trusted by over 16,000 companies and millions of learners around the world</h3>
-      <div class="partner-logos">
-        <ul class="partner-list">
-          <li><img src="images/cisco_logo.svg" alt="cisco logo"></li>
-          <li><img src="images/citi_logo.svg" alt="citi logo"></li>
-          <li><img src="images/ericsson_logo.svg" alt="ericsson logo"></li>
-          <li><img src="images/samsung_logo.svg" alt="samsung logo"></li>
-          <li><img src="images/vimeo_logo_resized-2.svg" alt="vimeo logo"></li>
-          <li><img src="images/volkswagen_logo.svg" alt="volkswagen logo"></li>
-          <li><img src="images/hewlett_packard_enterprise_logo.svg" alt="hewlett packard enterprise logo"></li>
-          <li><img src="images/procter_gamble_logo.svg" alt="procter gamble logo"></li>
-        </ul>
+      <div class="partner-container">
+        <h3 class="partner-banner">Trusted by over 16,000 companies and millions of learners around the world</h3>
+        <div class="partner-logos">
+          <ul class="partner-list">
+            <li><img src="images/cisco_logo.svg" alt="cisco logo"></li>
+            <li><img src="images/citi_logo.svg" alt="citi logo"></li>
+            <li><img src="images/ericsson_logo.svg" alt="ericsson logo"></li>
+            <li><img src="images/samsung_logo.svg" alt="samsung logo"></li>
+            <li><img src="images/vimeo_logo_resized-2.svg" alt="vimeo logo"></li>
+            <li><img src="images/volkswagen_logo.svg" alt="volkswagen logo"></li>
+            <li><img src="images/hewlett_packard_enterprise_logo.svg" alt="hewlett packard enterprise logo"></li>
+            <li><img src="images/procter_gamble_logo.svg" alt="procter gamble logo"></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
   </section>
   <!-- Courses Section -->
   <main class="courses" id="courses">
     <div class="container">
-    <h2>See what you can learn with EduTech</h2>
-    <div class="courses-container">
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./images/webCourse.jpg" alt="Web development Course" />
-        </div>
-        <div class="course-details">
-          <h3 class="coures-title">Complete web development course</h3>
-          <h4 class="course-instructor">Hitesh Choudhary</h4>
-          <div class="rating">
-            <span>4.7</span>
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <span>(4.017)</span>
+      <h2>See what you can learn with EduTech</h2>
+      <div class="courses-container">
+        <a href="./course-details.html" class="course-card">
+          <div class="course-img">
+            <img src="./images/webCourse.jpg" alt="Web development Course" />
           </div>
-          <div class="course-time">
-            <span class="course-duration">70.5 hours</span>
-            <span class="lectures">202 lectures</span>
-            <span class="course-level">All levels</span>
+          <div class="course-details">
+            <h3 class="coures-title">Complete web development course</h3>
+            <h4 class="course-instructor">Hitesh Choudhary</h4>
+            <div class="rating">
+              <span>4.7</span>
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <span>(4.017)</span>
+            </div>
+            <div class="course-time">
+              <span class="course-duration">70.5 hours</span>
+              <span class="lectures">202 lectures</span>
+              <span class="course-level">All levels</span>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
 
-      <div class="course-card">
-        <div class="course-img">
-          <img src="images/AICourse.jpg" alt="ChatGPT AI Course" />
-        </div>
-        <div class="course-details">
-          <h3 class="coures-title">
-            ChatGPT Masters: Generative AI, Prompt Engineering, Chat GPT
-          </h3>
-          <h4 class="course-instructor">Phil Ebiner, Diego Davila</h4>
-          <div class="rating">
-            <span>4.5</span>
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <span>(3.967)</span>
+        <a  href="./course-details.html" class="course-card">
+          <div class="course-img">
+            <img src="images/AICourse.jpg" alt="ChatGPT AI Course" />
           </div>
-          <div class="course-time">
-            <span class="course-duration">17.5 hours</span>
-            <span class="lectures">212 lectures</span>
-            <span class="course-level">Beginner</span>
+          <div class="course-details">
+            <h3 class="coures-title">
+              ChatGPT Masters: Generative AI, Prompt Engineering, Chat GPT
+            </h3>
+            <h4 class="course-instructor">Phil Ebiner, Diego Davila</h4>
+            <div class="rating">
+              <span>4.5</span>
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <span>(3.967)</span>
+            </div>
+            <div class="course-time">
+              <span class="course-duration">17.5 hours</span>
+              <span class="lectures">212 lectures</span>
+              <span class="course-level">Beginner</span>
+            </div>
           </div>
-        </div>
-      </div>
+        </a>
 
-      <div class="course-card">
-        <div class="course-img">
-          <img src="./images/mobileDevelopement.webp" alt="Web development Course" />
-        </div>
-        <div class="course-details">
-          <h3 class="coures-title">
-            Learn Android/iOS Mobile Development in Python and Make Apps
-          </h3>
-          <h4 class="course-instructor">Coding School</h4>
-          <div class="rating">
-            <span>5</span>
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <img src="images/icon-star.svg" alt="star rating" />
-            <span>(20)</span>
+        <a href="./course-details.html" class="course-card">
+          <div class="course-img">
+            <img src="./images/mobileDevelopement.webp" alt="Web development Course" />
           </div>
-          <div class="course-time">
-            <span class="course-duration">15.5 hours</span>
-            <span class="lectures">50 lectures</span>
-            <span class="course-level">Beginner</span>
+          <div class="course-details">
+            <h3 class="coures-title">
+              Learn Android/iOS Mobile Development in Python and Make Apps
+            </h3>
+            <h4 class="course-instructor">Coding School</h4>
+            <div class="rating">
+              <span>5</span>
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <img src="images/icon-star.svg" alt="star rating" />
+              <span>(20)</span>
+            </div>
+            <div class="course-time">
+              <span class="course-duration">15.5 hours</span>
+              <span class="lectures">50 lectures</span>
+              <span class="course-level">Beginner</span>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
-  </div>
   </main>
   <section class="testimonials" id="testimonials">
     <h2>What learners are saying</h2>
     <div class="container">
-    <div class="review-cards">
+      <div class="review-cards">
 
-      <div class="test-card">
-        <div class="heading">
-          <div class="img-wrapper">
-            <img
-              src="https://raw.githubusercontent.com/khatri2002/testimonials-grid-section/refs/heads/main/images/image-daniel.jpg"
-              alt="Daniel Clifford" />
+        <div class="test-card">
+          <div class="heading">
+            <div class="img-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/khatri2002/testimonials-grid-section/refs/heads/main/images/image-daniel.jpg"
+                alt="Daniel Clifford" />
+            </div>
+            <div class="text">
+              <h3>Daniel Clifford</h3>
+              <h4>Verified Graduate</h4>
+            </div>
           </div>
-          <div class="text">
-            <h3>Daniel Clifford</h3>
-            <h4>Verified Graduate</h4>
+          <div class="main">
+            <div class="desc">
+              <p>
+                “
+                <b>This course helped me think about the person I want to be.</b>
+                The mental space that it afforded me allowed me to broaden my horizons and think about opportunities I
+                hadn't considered before.”
+              </p>
+            </div>
           </div>
         </div>
-        <div class="main">
-          <div class="desc">
-            <p>
-              “
-              <b>This course helped me think about the person I want to be.</b>
-              The mental space that it afforded me allowed me to broaden my horizons and think about opportunities I
-              hadn't considered before.”
-            </p>
+
+        <div class="test-card">
+          <div class="heading">
+            <div class="img-wrapper">
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/4w9dYD4F64ibQwsaAB01Z4/c4610e9b1ac65589d8b1374ad10714e2/Ian_Stevens.png"
+                alt="Ian Stevens" />
+            </div>
+            <div class="text">
+              <h3>Ian Stevens</h3>
+              <h4>Verified Graduate</h4>
+            </div>
+          </div>
+          <div class="main">
+            <div class="desc">
+              <p>
+                “One employer was very interested in my boot camp experience and couldn’t believe all I learned in just
+                six months.
+                <b>I ended up getting that job.</b>”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="test-card">
+          <div class="heading">
+            <div class="img-wrapper">
+              <img
+                src="https://cms-images.udemycdn.com/96883mtakkm8/1Djz6c0gZLaCG5SQS3PgUY/54b6fb8c85d8da01da95cbb94fa6335f/Alvin_Lim.jpeg"
+                alt="Alvin Lim" />
+            </div>
+            <div class="text">
+              <h3>Alvin Lim</h3>
+              <h4>Verified Graduate</h4>
+            </div>
+          </div>
+          <div class="main">
+            <div class="desc">
+              <p>
+                “The online program helped me refocus my main tasks as a leader:<b> engaging with my team [and]
+                  connecting
+                  with potential stakeholders.</b>”
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="test-card">
-        <div class="heading">
-          <div class="img-wrapper">
-            <img
-              src="https://cms-images.udemycdn.com/96883mtakkm8/4w9dYD4F64ibQwsaAB01Z4/c4610e9b1ac65589d8b1374ad10714e2/Ian_Stevens.png"
-              alt="Ian Stevens" />
-          </div>
-          <div class="text">
-            <h3>Ian Stevens</h3>
-            <h4>Verified Graduate</h4>
-          </div>
-        </div>
-        <div class="main">
-          <div class="desc">
-            <p>
-              “One employer was very interested in my boot camp experience and couldn’t believe all I learned in just
-              six months.
-              <b>I ended up getting that job.</b>”
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="test-card">
-        <div class="heading">
-          <div class="img-wrapper">
-            <img
-              src="https://cms-images.udemycdn.com/96883mtakkm8/1Djz6c0gZLaCG5SQS3PgUY/54b6fb8c85d8da01da95cbb94fa6335f/Alvin_Lim.jpeg"
-              alt="Alvin Lim" />
-          </div>
-          <div class="text">
-            <h3>Alvin Lim</h3>
-            <h4>Verified Graduate</h4>
-          </div>
-        </div>
-        <div class="main">
-          <div class="desc">
-            <p>
-              “The online program helped me refocus my main tasks as a leader:<b> engaging with my team [and] connecting
-                with potential stakeholders.</b>”
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- Footer Section -->
   <footer class="footer" id="footer">
     <div class="container">
-    <div class="footer-container">
-      <!-- About Section -->
-      <div class="footer-section about" id="about">
-        <h3>About Us</h3>
-        <p>We are committed to providing high-quality, accessible, and engaging learning experiences for all. Join us to
-          unlock your potential!</p>
+      <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-section about" id="about">
+          <h3>About Us</h3>
+          <p>We are committed to providing high-quality, accessible, and engaging learning experiences for all. Join us
+            to
+            unlock your potential!</p>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-section contact" id="contact">
+          <h3>Contact Us</h3>
+          <p>Email: <a href="mailto:support@edutech.com">support@edutech.com</a></p>
+          <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        </div>
       </div>
 
-      <!-- Quick Links Section -->
-      <div class="footer-section links">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="#courses">Courses</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact Section -->
-      <div class="footer-section contact" id="contact">
-        <h3>Contact Us</h3>
-        <p>Email: <a href="mailto:support@edutech.com">support@edutech.com</a></p>
-        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 EduTech. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
       </div>
     </div>
-
-    <!-- Bottom Section -->
-    <div class="footer-bottom">
-      <p>&copy; 2024 EduTech. All rights reserved.</p>
-      <div class="social-links">
-        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </div>
   </footer>
 </body>
 

@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
@@ -27,12 +24,15 @@ body {
   font-size: 16px;
   font-weight: var(--primary-weight);
   background-color: var(--item-color);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Header Section */
 .header {
   background: var(--item-color, white);
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .nav {
@@ -149,8 +149,9 @@ body {
 .hero-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   /* background-image: linear-gradient(4deg, #00262b 11.47%, #1f453d 91.97%); */
-  background: url("images/mobileHeader.webp") no-repeat center center/cover;
+  background: url("../images/mobileHeader.webp") no-repeat center center/cover;
   color: var(--item-color, white);
   text-align: center;
   padding: 4rem 1rem;
@@ -200,10 +201,6 @@ body {
   flex-direction: row;
   gap: 1rem;
   justify-content: space-between;
-  /* display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(4, 4fr);
-  grid-gap: 1.6rem; */
   list-style: none;
 }
 .partner-list li {
@@ -222,7 +219,6 @@ body {
 .courses-container {
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   gap: var(--grid-gap);
 }
 .courses h2,
@@ -239,6 +235,9 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 .course-card:hover {
