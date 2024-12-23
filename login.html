@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in | EduTech</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- Bootstrap Installation -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap Font Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/login.css">
+</head>
+
+<body>
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container flex-column flex-md-row justify-content-center justify-content-md-between">
+                <a class="navbar-brand" href="index.html">EduTech Solutions</a>
+                <span class="navbar-text">Don’t have an account?<a href="signUp"> Sign Up</a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container d-flex flex-column flex-md-row justify-content-md-between align-items-center">
+            <div class="col-5">
+                <img class="img-fluid" src="images/desktop-illustration-step-2-x1.webp" alt="" />
+            </div>
+            <div class="login-form col-12 col-md-5">
+                <h1 class="fs-1 fw-bolder text-center mb-5">Log in to continue your learning journey</h1>
+                <form action="">
+                    <div class="g-3 row">
+                        <div class="col-12">
+                            <label class="visually-hidden form-label" for="formSigninEmail">Email address</label>
+                            <input
+                                placeholder="Email" id="formSigninEmail" class="form-control" required type="email"
+                                name="email" />
+                        </div>
+                        <div class="col-12">
+                            <div class="password-field">
+                                <label class="visually-hidden form-label" for="formSigninPassword">Password</label>
+                            </div>
+                            <div class="password-field">
+                                <input placeholder="*****" id="formSigninPassword" class="fakePassword form-control"
+                                    type="password" name="password" required/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between my-3 fs-6">
+                        <div class="form-check">
+                            <input id="flexCheck" class="form-check-input" type="checkbox" value="" />
+                            <label for="flexCheck" class="form-check-label">Remember me</label>
+                        </div>
+                        <div>
+                            Forgot password?<a href=""> Reset It</a>
+                        </div>
+                    </div>
+                    <div class="d-grid col-12">
+                        <button type="submit" id="submitBtn" class="btn text-white rounded-3 fw-bold">Sign In</button>
+                    </div>
+                    <div class="text-center mt-2">Don’t have an account?<a href="/signup"> Sign Up</a></div>
+            </form>
+        </div>
+        </div>
+    </main>
+
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+        <script src="scripts/login.js"></script>
+</body>
+
+</html>

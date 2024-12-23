@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "name": "admin",
+            "email": "admin@admin.com",
+            "password": "123456789",
+            "role": "instructor"
+        },
+        {
+            "id": "2",
+            "name": "aya",
+            "email": "ayashahin05@gmail.com",
+            "password": "aya1234",
+            "role": "student"
+        }
+    ]
+
+}

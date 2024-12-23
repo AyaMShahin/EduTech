@@ -1,0 +1,15 @@
+ a{
+    color: var(--primary-button-color, orange);
+    cursor: pointer;
+}
+form .btn{
+    background-color: var(--primary-button-color, orange);
+    cursor: pointer;
+    border: 1px solid var(--primary-button-color, orange);
+    padding: 0.9rem .75rem;
+    
+}
+form .btn:hover{
+scale: 0.9;
+transition: 0.50s all ease-in-out;
+}
